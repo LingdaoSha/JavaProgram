@@ -5,7 +5,7 @@ class BankAccount
 
 	public BankAccount (double openingBalance)
 	{
-		balance = opeingBalance;
+		balance = openingBalance;
 	}
 
 	public void deposit (double amount)

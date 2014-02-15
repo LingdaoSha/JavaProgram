@@ -1,7 +1,7 @@
 package button;
 
-import java.awt.*
-import java.awt.event.*
+import java.awt.*;
+import java.awt.event.*;
 import javax.swing.*;
 
 /**
@@ -42,7 +42,7 @@ public class ButtonFrame extends JFrame
 		//associate actions with buttons
 		yellowButton.addActionListener(yellowAction);
 		blueButton.addActionListener(blueAction);
-		redAction.addActionListener(redAction);
+		redButton.addActionListener(redAction);
 	}
 
 	/**
